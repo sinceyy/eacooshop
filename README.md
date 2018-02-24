@@ -34,8 +34,7 @@ QQ群: 436491685
 
 ### 项目地址
 (记得给项目加个star哦)  
-码云gitee：[https://gitee.com/ZhaoJunfeng/EacooPHP.git](https://gitee.com/ZhaoJunfeng/EacooPHP.git)  
-GitHub：[https://github.com/fengdou902/EacooPHP.git](https://github.com/fengdou902/EacooPHP.git)  
+GitHub：[https://github.com/sinceyy/eacooshop.git](https://github.com/sinceyy/eacooshop.git)  
 
 ### 鸣谢
 感谢以下的项目,排名不分先后
