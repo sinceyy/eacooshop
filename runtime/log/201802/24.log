@@ -1,0 +1,2562 @@
+---------------------------------------------------------------
+[ 2018-02-24T11:59:39+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/
+[ info ] localhost/EacooPHP-1.2.0/public/ [运行时间：0.062476s][吞吐率：16.01req/s] [内存消耗：1,322.46kb] [文件加载：45]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.001568s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T11:59:52+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index [运行时间：0.093841s][吞吐率：10.66req/s] [内存消耗：1,918.48kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000336s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000625s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:40:14+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.086927s][吞吐率：11.50req/s] [内存消耗：1,921.50kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000580s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000603s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:40:25+08:00 ] 0.0.0.0 POST /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.378754s][吞吐率：2.64req/s] [内存消耗：1,706.61kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000479s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000653s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:40:27+08:00 ] 0.0.0.0 POST /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.029863s][吞吐率：33.49req/s] [内存消耗：1,706.61kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000411s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000990s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:40:31+08:00 ] 0.0.0.0 POST /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.031621s][吞吐率：31.62req/s] [内存消耗：1,706.61kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000444s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000646s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:40:36+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index.html [运行时间：0.035710s][吞吐率：28.00req/s] [内存消耗：1,787.77kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000402s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000872s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:40:39+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index.html [运行时间：0.032568s][吞吐率：30.71req/s] [内存消耗：1,788.16kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000413s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000695s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:40:41+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.033647s][吞吐率：29.72req/s] [内存消耗：1,795.93kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000375s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000663s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:40:44+08:00 ] 0.0.0.0 POST /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.026640s][吞吐率：37.54req/s] [内存消耗：1,706.61kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000393s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000552s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:40:45+08:00 ] 0.0.0.0 POST /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.029256s][吞吐率：34.18req/s] [内存消耗：1,706.61kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000398s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000688s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:40:45+08:00 ] 0.0.0.0 POST /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.028386s][吞吐率：35.23req/s] [内存消耗：1,706.61kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000444s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000578s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:40:46+08:00 ] 0.0.0.0 POST /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.035062s][吞吐率：28.52req/s] [内存消耗：1,706.61kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000738s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000865s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:40:50+08:00 ] 0.0.0.0 POST /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.030036s][吞吐率：33.29req/s] [内存消耗：1,706.61kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000430s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000624s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:42:03+08:00 ] 0.0.0.0 POST /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.037268s][吞吐率：26.83req/s] [内存消耗：1,706.61kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000642s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000589s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:42:05+08:00 ] 0.0.0.0 POST /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.030579s][吞吐率：32.70req/s] [内存消耗：1,706.61kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000489s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000747s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:44:21+08:00 ] 0.0.0.0 POST /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.032904s][吞吐率：30.39req/s] [内存消耗：1,706.61kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000550s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000818s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:46:39+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.078895s][吞吐率：12.68req/s] [内存消耗：2,251.32kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.034725s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000561s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:46:39+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.049597s][吞吐率：20.16req/s] [内存消耗：2,251.32kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000725s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000801s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:46:40+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.049603s][吞吐率：20.16req/s] [内存消耗：2,251.32kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000756s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000816s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:46:40+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.048077s][吞吐率：20.80req/s] [内存消耗：2,251.32kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000634s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000852s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:46:40+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.050590s][吞吐率：19.77req/s] [内存消耗：2,251.32kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000648s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000855s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:47:06+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.046662s][吞吐率：21.43req/s] [内存消耗：1,796.09kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000526s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000616s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:47:07+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.033930s][吞吐率：29.47req/s] [内存消耗：1,796.24kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000494s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000650s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:47:08+08:00 ] 0.0.0.0 POST /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.032254s][吞吐率：31.00req/s] [内存消耗：1,706.61kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000461s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000675s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:48:24+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index.html [运行时间：0.032990s][吞吐率：30.31req/s] [内存消耗：1,787.77kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000519s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000694s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:49:59+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index.html [运行时间：0.029975s][吞吐率：33.36req/s] [内存消耗：1,788.16kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000530s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000614s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:50:00+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index.html [运行时间：0.031016s][吞吐率：32.24req/s] [内存消耗：1,788.16kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000724s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000644s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:50:00+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index.html [运行时间：0.029211s][吞吐率：34.23req/s] [内存消耗：1,788.16kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000419s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000845s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:50:00+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index.html [运行时间：0.029456s][吞吐率：33.95req/s] [内存消耗：1,788.16kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000447s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000628s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:50:00+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index.html [运行时间：0.030930s][吞吐率：32.33req/s] [内存消耗：1,788.16kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000447s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000645s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:50:00+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index.html [运行时间：0.028926s][吞吐率：34.57req/s] [内存消耗：1,788.16kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000375s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000592s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:50:56+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/
+[ info ] localhost/EacooPHP-1.2.0/public/ [运行时间：0.020469s][吞吐率：48.85req/s] [内存消耗：1,322.54kb] [文件加载：45]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000379s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:51:06+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/
+[ info ] localhost/EacooPHP-1.2.0/public/ [运行时间：0.019439s][吞吐率：51.44req/s] [内存消耗：1,322.17kb] [文件加载：45]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000363s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:51:17+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/
+[ info ] localhost/EacooPHP-1.2.0/public/ [运行时间：0.021103s][吞吐率：47.39req/s] [内存消耗：1,322.17kb] [文件加载：45]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000637s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:51:41+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index [运行时间：0.032955s][吞吐率：30.34req/s] [内存消耗：1,787.48kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000430s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000644s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:51:42+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index [运行时间：0.029661s][吞吐率：33.71req/s] [内存消耗：1,787.48kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000456s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000680s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:51:42+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index [运行时间：0.029924s][吞吐率：33.42req/s] [内存消耗：1,787.48kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000369s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000541s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:51:42+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index [运行时间：0.028918s][吞吐率：34.58req/s] [内存消耗：1,787.48kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000387s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000761s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:51:43+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index [运行时间：0.034182s][吞吐率：29.26req/s] [内存消耗：1,787.48kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000651s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000641s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:51:49+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index [运行时间：0.029023s][吞吐率：34.46req/s] [内存消耗：1,787.20kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000401s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000802s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:52:15+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index [运行时间：0.031453s][吞吐率：31.79req/s] [内存消耗：1,787.20kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000461s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000651s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:52:17+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/index
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/index [运行时间：0.028746s][吞吐率：34.79req/s] [内存消耗：1,787.48kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000396s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000581s ]
+[ info ] [ RUN ] app\install\controller\Index->index[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\index.html [ array (
+  0 => 'product_name',
+  1 => 'status',
+  2 => 'company_name',
+  3 => 'company_website_domain',
+  4 => 'website_domain',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:52:18+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.033734s][吞吐率：29.64req/s] [内存消耗：1,795.93kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000448s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000969s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:52:20+08:00 ] 0.0.0.0 POST /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.026221s][吞吐率：38.14req/s] [内存消耗：1,706.61kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000465s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000676s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:53:24+08:00 ] 0.0.0.0 POST /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.027265s][吞吐率：36.68req/s] [内存消耗：1,706.56kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000452s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000770s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:53:25+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.040075s][吞吐率：24.95req/s] [内存消耗：1,796.24kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000265s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000517s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:53:25+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.034648s][吞吐率：28.86req/s] [内存消耗：1,796.24kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000423s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000652s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:53:26+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.040120s][吞吐率：24.93req/s] [内存消耗：1,796.24kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000757s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.001003s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:53:26+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.036914s][吞吐率：27.09req/s] [内存消耗：1,796.24kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000419s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000787s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:53:26+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.036158s][吞吐率：27.66req/s] [内存消耗：1,796.24kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000612s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000733s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:53:26+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.035901s][吞吐率：27.85req/s] [内存消耗：1,796.24kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000469s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000619s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:53:27+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.036082s][吞吐率：27.71req/s] [内存消耗：1,796.24kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000413s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000616s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:59:40+08:00 ] 0.0.0.0 POST /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.028025s][吞吐率：35.68req/s] [内存消耗：1,706.56kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000667s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000619s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T13:59:41+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.029766s][吞吐率：33.60req/s] [内存消耗：1,796.24kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000299s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000576s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T14:50:13+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.032503s][吞吐率：30.77req/s] [内存消耗：1,796.09kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000573s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000659s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T14:50:14+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.030341s][吞吐率：32.96req/s] [内存消耗：1,796.24kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000430s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000600s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T14:50:14+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.030406s][吞吐率：32.89req/s] [内存消耗：1,796.24kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000448s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000745s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T14:50:14+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.032559s][吞吐率：30.71req/s] [内存消耗：1,796.24kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000482s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000653s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T14:50:15+08:00 ] 0.0.0.0 GET /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.030766s][吞吐率：32.50req/s] [内存消耗：1,796.24kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000515s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000644s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\public/../apps/install\view\index\check.html [ array (
+  0 => 'product_name',
+  1 => 'dirfile',
+  2 => 'env',
+  3 => 'func',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-24T14:50:15+08:00 ] 0.0.0.0 POST /EacooPHP-1.2.0/public/install/index/check.html
+[ info ] localhost/EacooPHP-1.2.0/public/install/index/check.html [运行时间：0.029068s][吞吐率：34.40req/s] [内存消耗：1,706.61kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitApp @app_init [ RunTime:0.000503s ]
+[ info ] [ LANG ] E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=160a6c88d16c6e-0c287c2266b85a-e323462-1fa400-160a6c88d17925; CNZZDATA1262571414=263858303-1514623110-%7C1514623110; PHPSESSID=dnlvjce24np0jtad8u3ul0qir2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/EacooPHP-1.2.0/public/install/index/check.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3298.4 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Config @app_begin [ RunTime:0.000724s ]
+[ info ] [ RUN ] app\install\controller\Index->check[ E:\WINS\phpStudy\WWW\EacooPHP-1.2.0\apps\install\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'eacoophpFront_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
